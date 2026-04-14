@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "picture": "https://i.pravatar.cc/150?img=47",
+    "email": "sarah.mitchell@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Roommate from sophomore year. Now a pediatric nurse in Boston. We bond over true crime podcasts.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "James Okafor",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "j.okafor@outlook.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "Senior engineer who mentored me at my first job. Incredibly sharp and always has career advice ready.",
+    "goal": 30,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 3,
+    "name": "Priya Nair",
+    "picture": "https://i.pravatar.cc/150?img=32",
+    "email": "priya.nair@yahoo.com",
+    "days_since_contact": 27,
+    "status": "almost due",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin based in Singapore. We grew up spending summers together. She runs her own bakery now.",
+    "goal": 30,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 4,
+    "name": "Carlos Vega",
+    "picture": "https://i.pravatar.cc/150?img=67",
+    "email": "carlosvega88@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["childhood friend", "close friend"],
+    "bio": "Best friend from high school. Now a football coach in Madrid. We try to catch up every month.",
+    "goal": 30,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 5,
+    "name": "Aisha Kamara",
+    "picture": "https://i.pravatar.cc/150?img=25",
+    "email": "aisha.k@protonmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["networking", "entrepreneur"],
+    "bio": "Met at a startup conference in 2023. Founded a fintech company in Nairobi. Sharp mind and great energy.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 6,
+    "name": "Tom Whitfield",
+    "picture": "https://i.pravatar.cc/150?img=53",
+    "email": "tomwhit@icloud.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["neighbor", "friend"],
+    "bio": "Next-door neighbor for 5 years. We walk our dogs together on weekends and swap book recommendations.",
+    "goal": 10,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 7,
+    "name": "Mei-Ling Chen",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "email": "meiling.chen@gmail.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["college", "study group"],
+    "bio": "Study partner from grad school. Brilliant data scientist now at a research lab in Tokyo.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 8,
+    "name": "David Rosenberg",
+    "picture": "https://i.pravatar.cc/150?img=70",
+    "email": "d.rosenberg@gmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["work", "colleague"],
+    "bio": "Collaborated on a product launch together. Reliable, creative, and always brings snacks to meetings.",
+    "goal": 21,
+    "next_due_date": "2026-04-27"
+  },
+  {
+    "id": 9,
+    "name": "Fatima Al-Hassan",
+    "picture": "https://i.pravatar.cc/150?img=16",
+    "email": "fatima.alhassan@hotmail.com",
+    "days_since_contact": 19,
+    "status": "almost due",
+    "tags": ["close friend", "travel buddy"],
+    "bio": "Travel companion from a backpacking trip across Southeast Asia. We still plan a new trip every year.",
+    "goal": 21,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 10,
+    "name": "Liam Burke",
+    "picture": "https://i.pravatar.cc/150?img=59",
+    "email": "liam.burke@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["family", "brother"],
+    "bio": "Younger brother living in Dublin. We talk about football, life goals, and our parents constantly.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  }
+]
