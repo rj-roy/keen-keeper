@@ -2,12 +2,13 @@ import React from 'react';
 
 const FriendCard = ({friend}) => {    
     const {
-        id, goal, email
+        id, goal, email,
+        picture,
     } = friend;
 
     return (
-        <div>
-            dfjs
+        <div>            
+            <img src={picture} alt="pic" />
         </div>
     );
 };
