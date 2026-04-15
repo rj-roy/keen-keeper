@@ -1,4 +1,4 @@
-import AllFriends from "./components/allFriends/AllFriends";
+import AllFriends from "./components/allFriends/page";
 
 export default function Home() {
 

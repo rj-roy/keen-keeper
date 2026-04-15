@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./headerFooter/navbar/page";
-import Footer from "./headerFooter/footer/page";
+import Navbar from "./components/headerFooter/navbar/page";
+import Footer from "./components/headerFooter/footer/page";
+import { InteractionProvider } from "./context/dContext";
 
 export const metadata = {
   title: "Keen Keeper",
@@ -16,7 +17,11 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Navbar/>
-        <main>{children}</main>
+        <main>
+          <InteractionProvider>
+            {children}
+          </InteractionProvider>
+        </main>
         <Footer/>
       </body>
     </html>

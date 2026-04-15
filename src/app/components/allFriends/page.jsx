@@ -1,13 +1,12 @@
-import StatesShow from '@/app/ui/statesShow/StatesShow';
+import StatesShow from '@/app/components/statesShow/StatesShow';
 import React, { Suspense } from 'react';
-import Friends from '../friends/Friends';
-import { getFriends } from '@/app/lib/getFriends';
-import Loading from '../../ui/statesShow/Loading';
+import Loading from '../statesShow/Loading';
+import Friends from '@/app/components/friends/page';
 
 const AllFriends = () => {
 
     return (
-        <div>
+        <div className='space-y-15'>
             <StatesShow />
             <Suspense fallback={<Loading />} >
                 <Friends />

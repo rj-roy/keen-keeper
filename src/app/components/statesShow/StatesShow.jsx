@@ -1,4 +1,4 @@
-import Loading from "@/app/ui/statesShow/Loading";
+import Loading from "@/app/components/statesShow/Loading";
 import InteractionsThisMonth from "./InteractionsThisMonth";
 import NeedAttention from "./NeedAttention";
 import OnTrack from "./OnTrack";
@@ -15,7 +15,7 @@ const StatesShow = () => {
     // const interActionsThisMonth = friends.filter(f => f.days_since_contact <= daysInCurrentMonth).length;
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-20">
             <div className="bg-gray-200 grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
                 <Suspense fallback={ <Loading/> }>
                     <Total />

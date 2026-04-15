@@ -4,11 +4,13 @@ import FriendCard from "@/app/ui/friendsCard/FriendCard";
 const Friends = async () => {
     const friends = await getFriends();
     return (
-        <div>
+        <div className="space-y-5">
             <h3 className="text-3xl font-medium">Your Friends</h3>
-            {
-                friends.map((friend, index) => <FriendCard key={index} friend={friend}/> )
-            }
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                {
+                    friends.map((friend, index) => <FriendCard key={index} friend={friend} />)
+                }
+            </div>
         </div>
     );
 };

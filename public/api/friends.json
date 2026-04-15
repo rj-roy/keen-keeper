@@ -9,7 +9,8 @@
     "tags": ["college", "close friend"],
     "bio": "Roommate from sophomore year. Now a pediatric nurse in Boston. We bond over true crime podcasts.",
     "goal": 14,
-    "next_due_date": "2026-04-10"
+    "next_due_date": "2026-04-10",
+    "slug": "sarah-mitchell"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "tags": ["work", "mentor"],
     "bio": "Senior engineer who mentored me at my first job. Incredibly sharp and always has career advice ready.",
     "goal": 30,
-    "next_due_date": "2026-04-28"
+    "next_due_date": "2026-04-28",
+    "slug": "james-okafor"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "tags": ["family", "cousin"],
     "bio": "Cousin based in Singapore. We grew up spending summers together. She runs her own bakery now.",
     "goal": 30,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "2026-04-16",
+    "slug": "priya-nair"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "tags": ["childhood friend", "close friend"],
     "bio": "Best friend from high school. Now a football coach in Madrid. We try to catch up every month.",
     "goal": 30,
-    "next_due_date": "2026-03-30"
+    "next_due_date": "2026-03-30",
+    "slug": "carlos-vega"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "tags": ["networking", "entrepreneur"],
     "bio": "Met at a startup conference in 2023. Founded a fintech company in Nairobi. Sharp mind and great energy.",
     "goal": 14,
-    "next_due_date": "2026-04-25"
+    "next_due_date": "2026-04-25",
+    "slug": "aisha-kamara"
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "tags": ["neighbor", "friend"],
     "bio": "Next-door neighbor for 5 years. We walk our dogs together on weekends and swap book recommendations.",
     "goal": 10,
-    "next_due_date": "2026-04-15"
+    "next_due_date": "2026-04-15",
+    "slug": "tom-whitfield"
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "tags": ["college", "study group"],
     "bio": "Study partner from grad school. Brilliant data scientist now at a research lab in Tokyo.",
     "goal": 30,
-    "next_due_date": "2026-03-15"
+    "next_due_date": "2026-03-15",
+    "slug": "mei-ling-chen"
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "tags": ["work", "colleague"],
     "bio": "Collaborated on a product launch together. Reliable, creative, and always brings snacks to meetings.",
     "goal": 21,
-    "next_due_date": "2026-04-27"
+    "next_due_date": "2026-04-27",
+    "slug": "david-rosenberg"
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "tags": ["close friend", "travel buddy"],
     "bio": "Travel companion from a backpacking trip across Southeast Asia. We still plan a new trip every year.",
     "goal": 21,
-    "next_due_date": "2026-04-17"
+    "next_due_date": "2026-04-17",
+    "slug": "fatima-al-hassan"
   },
   {
     "id": 10,
@@ -117,6 +126,7 @@
     "tags": ["family", "brother"],
     "bio": "Younger brother living in Dublin. We talk about football, life goals, and our parents constantly.",
     "goal": 7,
-    "next_due_date": "2026-04-19"
+    "next_due_date": "2026-04-19",
+    "slug": "liam-burke"
   }
 ]
