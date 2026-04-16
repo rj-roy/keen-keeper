@@ -2,11 +2,16 @@ import { getFriends } from "@/app/lib/getFriends";
 import { Archive, Bell, Delete, DeleteIcon, LucideDelete, MessageCircle, PhoneCall, RemoveFormatting, Timer, Trash, VideoIcon, WatchIcon } from "lucide-react";
 import Image from "next/image";
 import QuickCheckIn from "../components/quickCheckIn/page";
+import { notFound } from "next/navigation";
 
 const FriendDetails = async ({ params }) => {
   const { slug } = await params;
   const friends = await getFriends();
   const friend = friends.find((f) => f.slug === slug);
+
+    if (!friend) return <div className="h-[50dvh] flex text-center justify-center mx-auto items-center text-4xl font-bold">{slug} does not exist...</div>;
+
+    // notFound(); 
 
   const {
     picture,
@@ -18,8 +23,6 @@ const FriendDetails = async ({ params }) => {
     goal,
     next_due_date
   } = friend;
-
-  if (!friend) return <div className="h-[50dvh] flex text-center justify-center mx-auto items-center text-4xl font-bold">{slug} does not exist...</div>;
 
   return (
     <div className="gap-5 w-full max-w-6xl mx-auto mt-10 my-10 grid grid-cols-1 md:grid-cols-7 px-4">
