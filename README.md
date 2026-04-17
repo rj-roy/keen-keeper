@@ -21,10 +21,10 @@ Built with a focus on simplicity, clarity, and fast performance using server-sid
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Next.js 16 (App Router)
-- **Language:** JavaScript / TypeScript (if applicable)
+- **Framework:** Next.js 16 (App Router) + React.js
+- **Language:** JavaScript 
 - **Styling:** Tailwind CSS
-- **Data Source:** Static JSON (`public/api/friends.json`)
+- **Data Source:** Static JSON 
 - **Deployment:** Vercel
 
 ---
