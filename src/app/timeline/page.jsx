@@ -13,7 +13,7 @@ const TimeLinePage = () => {
     console.log(filterData, "fil");
 
     return (
-        <div className="bg-[#f8fafc] w-full">
+        <div className="w-full">
             <div className="w-full max-w-5xl mx-auto py-10 space-y-4 px-4">
                 <h2 className="text-3xl font-bold">Timeline</h2>
                 <select
@@ -27,7 +27,8 @@ const TimeLinePage = () => {
                 </select>
                 { filter === "none" ? 
                     interactions.map((t, i) => <TimeLineDetails key={i} it={t} />) : 
-                    filterData.length === 0 ? <div className="h-[50dvh] grid items-center justify-center text-2xl font-bold">Not Found any Data</div> :
+                    filterData.length === 0 ? 
+                    <div className="h-[50dvh] grid items-center justify-center text-2xl font-bold">Not Found any Data</div> :
                     filterData.map((t, i) => <TimeLineDetails key={i} it={t} />)
                 }
             </div>

@@ -1,7 +1,9 @@
+import DonutChart from "../components/donoutChart/DonoutChart";
+
 const StatsPage = () => {
     return (
         <div>
-            stats
+            <DonutChart/>
         </div>
     );
 };

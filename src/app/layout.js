@@ -11,18 +11,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className='h-full'
-    >
-      <body className="min-h-full flex flex-col">
+    <html lang="en">
+      <body className="min-h-full flex flex-col bg-[#f8fafc]">
         <Navbar/>
         <main>
           <InteractionProvider>
             {children}
           </InteractionProvider>
         </main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer style={{ background: "#2d5a45" }} className="px-10 pt-12 pb-6 font-sans">
+        <footer className="px-10 pt-12 pb-6 font-sans bg-[#2d5a45]">
             <div className="w-full max-w-7xl mx-auto">
                 <div className="text-center mb-8">
                     <h1 className="text-white text-6xl font-bold tracking-tight mb-3">KeenKeeper</h1>

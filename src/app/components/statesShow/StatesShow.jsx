@@ -1,8 +1,8 @@
 import Loading from "@/app/components/statesShow/Loading";
-import InteractionsThisMonth from "./InteractionsThisMonth";
-import NeedAttention from "./NeedAttention";
-import OnTrack from "./OnTrack";
-import Total from "./Total";
+import InteractionsThisMonth from "./interactionsState/InteractionsThisMonth";
+import NeedAttention from "./interactionsState/NeedAttention";
+import OnTrack from "./interactionsState/OnTrack";
+import Total from "./interactionsState/Total";
 import { Suspense } from "react";
 
 const StatesShow = () => {
@@ -16,25 +16,25 @@ const StatesShow = () => {
 
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-20">
-            <div className="bg-gray-200 grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
+            <div className="bg-white grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
                 <Suspense fallback={ <Loading/> }>
                     <Total />
                 </Suspense>
                 <p>Total Friends</p>
             </div>
-            <div className="bg-gray-200 grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
+            <div className="bg-white grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
                 <Suspense fallback={ <Loading/> }>
                     <OnTrack />
                 </Suspense>
                 <p>On Track</p>
             </div>
-            <div className="bg-gray-200 grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
+            <div className="bg-white grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
                 <Suspense fallback={ <Loading/> }>
                     <NeedAttention />
                 </Suspense>
                 <p>Need Attention</p>
             </div>
-            <div className="bg-gray-200 grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
+            <div className="bg-white grid place-content-center text-center text-gray-600 gap-2 p-5 rounded-xl shadow-2xl border border-gray-300">
                 <Suspense fallback={ <Loading/> }>
                     <InteractionsThisMonth />
                 </Suspense>

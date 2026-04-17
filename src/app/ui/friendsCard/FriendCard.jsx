@@ -13,13 +13,13 @@ const FriendCard = ({ friend }) => {
     } = friend;
 
     return (
-        <Link href={`/${slug}`} className='text-center mx-auto bg-gray-100 w-full space-y-1 flex flex-col justify-center items-center p-5 rounded-2xl shadow-xl border border-gray-200 cursor-pointer'>
+        <Link href={`/${slug}`} className='text-center mx-auto bg-white w-full space-y-1 flex flex-col justify-center items-center p-5 rounded-2xl shadow-xl border border-gray-200 cursor-pointer'>
             
             <div className='flex justify-center'>
                 <Image className='rounded-full' src={picture} alt="avatar" width={100} height={100} />
             </div>
             <div>
-                <h3 className='text-xl font-medium my-2'>{name}</h3>
+                <h3 className='text-xl font-medium text-green-950 my-2'>{name}</h3>
                 <p className='text-gray-600'>{days_since_contact} Days Ago</p>
             </div>
             <div className='flex flex-col justify-center items-center space-y-3'>
