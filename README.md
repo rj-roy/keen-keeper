@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 Keen Keeper
 
-## Getting Started
+A modern **Next.js 16** application for tracking and managing personal interactions, check-ins, and timelines.  
+Built with a focus on simplicity, clarity, and fast performance using server-side rendering and component-based architecture.
 
-First, run the development server:
+🔗 Live Demo: https://keen-keeper-gules-six.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 👥 Manage friends / contacts data
+- 📊 Track interaction timelines (Call, Text, Meet, etc.)
+- 🧾 Detailed interaction history view
+- 🎯 Status tracking (on-track, inactive, etc.)
+- ⚡ Fast server-rendered pages with Next.js App Router
+- 🎨 Clean UI built with Tailwind CSS
+- 📦 Static JSON-based data handling (no external DB required)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 16 (App Router)
+- **Language:** JavaScript / TypeScript (if applicable)
+- **Styling:** Tailwind CSS
+- **Data Source:** Static JSON (`public/api/friends.json`)
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
