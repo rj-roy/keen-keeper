@@ -28,5 +28,3 @@ Built with a focus on simplicity, clarity, and fast performance using server-sid
 - **Deployment:** Vercel
 
 ---
-
-## 📁 Project Structure
