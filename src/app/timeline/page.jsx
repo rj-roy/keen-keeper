@@ -1,16 +1,14 @@
 "use client";
 import { AlertTriangle, Handshake } from "lucide-react";
 import { useInteractions } from "../context/dContext";
-import TimeLineDetails from "../components/timelineDetails/page";
+import TimeLineDetails from "../components/timelineDetails/TimelineDetails";
 import { useState } from "react";
 
 const TimeLinePage = () => {
     const { interactions, setInterActions } = useInteractions();
-    console.log(interactions, "int");
 
     const [filter, setFilter] = useState("");
     const filterData = filter ? interactions.filter((i) => i.ctv === filter) : interactions;
-    console.log(filterData, "fil");
 
     return (
         <div className="w-full">

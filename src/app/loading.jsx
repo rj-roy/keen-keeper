@@ -28,8 +28,6 @@ export default function Loading() {
                 {lk}
                 {lk}
                 {lk}
-                {lk}
-                {lk}
             </div>
         </div>
     );

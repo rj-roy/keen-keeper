@@ -6,7 +6,10 @@
     "email": "sarah.mitchell@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": ["college", "close friend"],
+    "tags": [
+      "college",
+      "close friend"
+    ],
     "bio": "Roommate from sophomore year. Now a pediatric nurse in Boston. We bond over true crime podcasts.",
     "goal": 14,
     "next_due_date": "2026-04-10",
@@ -19,7 +22,10 @@
     "email": "j.okafor@outlook.com",
     "days_since_contact": 6,
     "status": "on-track",
-    "tags": ["work", "mentor"],
+    "tags": [
+      "work",
+      "mentor"
+    ],
     "bio": "Senior engineer who mentored me at my first job. Incredibly sharp and always has career advice ready.",
     "goal": 30,
     "next_due_date": "2026-04-28",
@@ -32,7 +38,10 @@
     "email": "priya.nair@yahoo.com",
     "days_since_contact": 27,
     "status": "almost due",
-    "tags": ["family", "cousin"],
+    "tags": [
+      "family",
+      "cousin"
+    ],
     "bio": "Cousin based in Singapore. We grew up spending summers together. She runs her own bakery now.",
     "goal": 30,
     "next_due_date": "2026-04-16",
@@ -45,7 +54,10 @@
     "email": "carlosvega88@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["childhood friend", "close friend"],
+    "tags": [
+      "childhood friend",
+      "close friend"
+    ],
     "bio": "Best friend from high school. Now a football coach in Madrid. We try to catch up every month.",
     "goal": 30,
     "next_due_date": "2026-03-30",
@@ -58,7 +70,10 @@
     "email": "aisha.k@protonmail.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags": ["networking", "entrepreneur"],
+    "tags": [
+      "networking",
+      "entrepreneur"
+    ],
     "bio": "Met at a startup conference in 2023. Founded a fintech company in Nairobi. Sharp mind and great energy.",
     "goal": 14,
     "next_due_date": "2026-04-25",
@@ -71,7 +86,10 @@
     "email": "tomwhit@icloud.com",
     "days_since_contact": 11,
     "status": "almost due",
-    "tags": ["neighbor", "friend"],
+    "tags": [
+      "neighbor",
+      "friend"
+    ],
     "bio": "Next-door neighbor for 5 years. We walk our dogs together on weekends and swap book recommendations.",
     "goal": 10,
     "next_due_date": "2026-04-15",
@@ -84,7 +102,10 @@
     "email": "meiling.chen@gmail.com",
     "days_since_contact": 60,
     "status": "overdue",
-    "tags": ["college", "study group"],
+    "tags": [
+      "college",
+      "study group"
+    ],
     "bio": "Study partner from grad school. Brilliant data scientist now at a research lab in Tokyo.",
     "goal": 30,
     "next_due_date": "2026-03-15",
@@ -97,7 +118,10 @@
     "email": "d.rosenberg@gmail.com",
     "days_since_contact": 8,
     "status": "on-track",
-    "tags": ["work", "colleague"],
+    "tags": [
+      "work",
+      "colleague"
+    ],
     "bio": "Collaborated on a product launch together. Reliable, creative, and always brings snacks to meetings.",
     "goal": 21,
     "next_due_date": "2026-04-27",
@@ -110,7 +134,10 @@
     "email": "fatima.alhassan@hotmail.com",
     "days_since_contact": 19,
     "status": "almost due",
-    "tags": ["close friend", "travel buddy"],
+    "tags": [
+      "close friend",
+      "travel buddy"
+    ],
     "bio": "Travel companion from a backpacking trip across Southeast Asia. We still plan a new trip every year.",
     "goal": 21,
     "next_due_date": "2026-04-17",
@@ -123,10 +150,109 @@
     "email": "liam.burke@gmail.com",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": ["family", "brother"],
+    "tags": [
+      "family",
+      "brother"
+    ],
     "bio": "Younger brother living in Dublin. We talk about football, life goals, and our parents constantly.",
     "goal": 7,
     "next_due_date": "2026-04-19",
     "slug": "liam-burke"
+  },
+  {
+    "id": 11,
+    "name": "Sophia Turner",
+    "picture": "https://i.pravatar.cc/150?img=45",
+    "email": "sophia.turner@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": [
+      "friend",
+      "gym"
+    ],
+    "bio": "Close friend from the gym. We motivate each other and share fitness goals regularly.",
+    "goal": 7,
+    "next_due_date": "2026-04-21",
+    "slug": "sophia-turner"
+  },
+  {
+    "id": 12,
+    "name": "Ethan Collins",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "ethan.collins@gmail.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": [
+      "work",
+      "teammate"
+    ],
+    "bio": "Work teammate who collaborates on projects and shares productivity tips.",
+    "goal": 7,
+    "next_due_date": "2026-04-18",
+    "slug": "ethan-collins"
+  },
+  {
+    "id": 13,
+    "name": "Ava Mitchell",
+    "picture": "https://i.pravatar.cc/150?img=32",
+    "email": "ava.mitchell@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": [
+      "friend",
+      "college"
+    ],
+    "bio": "College friend who loves discussing books, travel, and personal growth.",
+    "goal": 7,
+    "next_due_date": "2026-04-20",
+    "slug": "ava-mitchell"
+  },
+  {
+    "id": 14,
+    "name": "Noah Bennett",
+    "picture": "https://i.pravatar.cc/150?img=22",
+    "email": "noah.bennett@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": [
+      "family",
+      "cousin"
+    ],
+    "bio": "Cousin living abroad. We catch up about family updates and life events.",
+    "goal": 7,
+    "next_due_date": "2026-04-23",
+    "slug": "noah-bennett"
+  },
+  {
+    "id": 15,
+    "name": "Isabella Reed",
+    "picture": "https://i.pravatar.cc/150?img=28",
+    "email": "isabella.reed@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": [
+      "friend",
+      "travel"
+    ],
+    "bio": "Travel buddy who shares experiences and plans future trips together.",
+    "goal": 7,
+    "next_due_date": "2026-04-22",
+    "slug": "isabella-reed"
+  },
+  {
+    "id": 16,
+    "name": "Lucas Hayes",
+    "picture": "https://i.pravatar.cc/150?img=18",
+    "email": "lucas.hayes@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": [
+      "friend",
+      "music"
+    ],
+    "bio": "Friend who shares a passion for music. We exchange playlists and talk about new artists.",
+    "goal": 7,
+    "next_due_date": "2026-04-19",
+    "slug": "lucas-hayes"
   }
 ]

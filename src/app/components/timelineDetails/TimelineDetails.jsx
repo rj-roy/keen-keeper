@@ -1,4 +1,5 @@
 const TimeLineDetails = ({ it }) => {
+    if (!it) return null;
     return (
         <div className="">
             <div className="text-gray-600 bg-white border border-gray-300 flex items-center p-5 rounded-xl">
