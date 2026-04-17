@@ -2,17 +2,37 @@
 import { Activity, Home, Watch } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const links = (
-        <>
-            <li><Link className="flex font-bold gap-1" href="/"><Home />Home</Link></li>
-            <li><Link className="flex font-bold gap-1" href="/timeline"><Watch />Timeline</Link></li>
-            <li><Link className="flex font-bold gap-1" href="/stats"><Activity /> Stats</Link></li>
-        </>
-    );
+    const pathname = usePathname();
+    const linkItems = [
+        { href: "/", label: "Home" },
+        { href: "/timeline", label: "Timeline" },
+        { href: "/stats", label: "Stats" },
+    ];
+    const links = linkItems.map((link)=>(
+        <li key={link.href}>
+            <Link 
+            href={link.href}
+            className={`flex font-bold gap-1 p-2.5 rounded-sm transition-all duration-300
+                ${pathname === link.href ? "bg-green-900 text-white" : "hover:bg-green-900 hover:text-white"}`}
+            >
+                {
+                    link.href === "/" ? <Home/> :
+                    link.href === "timeline" ? <Watch/> : <Activity/>
+                }
+                {link.label}
+            </Link>
+        </li>
+    ))
+
+    // <li><Link className="flex font-bold gap-1" href="/"><Home />Home</Link></li>
+    //         <li><Link className="flex font-bold gap-1" href="/timeline"><Watch />Timeline</Link></li>
+    //         <li><Link className="flex font-bold gap-1" href="/stats"><Activity /> Stats</Link></li>
+
 
     return (
         <div className="shadow-sm">
