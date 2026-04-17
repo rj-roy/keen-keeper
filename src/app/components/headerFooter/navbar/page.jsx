@@ -13,16 +13,16 @@ const Navbar = () => {
         { href: "/timeline", label: "Timeline" },
         { href: "/stats", label: "Stats" },
     ];
-    const links = linkItems.map((link)=>(
+    const links = linkItems.map((link) => (
         <li key={link.href}>
-            <Link 
-            href={link.href}
-            className={`flex font-bold gap-1 p-2.5 rounded-sm transition-all duration-300
+            <Link
+                href={link.href}
+                className={`flex font-bold gap-1 p-2.5 rounded-sm transition-all duration-300
                 ${pathname === link.href ? "bg-green-900 text-white" : "hover:bg-green-900 hover:text-white"}`}
             >
                 {
-                    link.href === "/" ? <Home/> :
-                    link.href === "timeline" ? <Watch/> : <Activity/>
+                    link.href === "/" ? <Home /> :
+                        link.href === "timeline" ? <Watch /> : <Activity />
                 }
                 {link.label}
             </Link>

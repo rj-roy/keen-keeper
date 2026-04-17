@@ -1,6 +1,7 @@
 "use client";
 import { useInteractions } from "@/app/context/dContext";
 import { MessageCircle, PhoneCall, Timer, VideoIcon } from "lucide-react";
+import { toast, ToastContainer } from "react-toastify";
 
 const QuickCheckIn = ({ name }) => {
     const { interactions, setInterActions } = useInteractions();
@@ -21,10 +22,17 @@ const QuickCheckIn = ({ name }) => {
             date: new Date().toLocaleDateString()
         };
         setInterActions([newInteraction, ...interactions]);
+        
+        newInteraction.ctv === "Call" ?
+             toast(`Call made with ${newInteraction.name}`): 
+            newInteraction.ctv === "Text" ?
+            toast(`Text with ${newInteraction.name}`) :
+            toast(`Video meet with ${newInteraction.name}`);
     };
 
     return (
         <div className="bg-gray-200 p-6 rounded-xl space-y-3 grid">
+            <ToastContainer/>
             <div>
                 <h4 className="text-xl font-medium">Quick Check-In</h4>
             </div>
